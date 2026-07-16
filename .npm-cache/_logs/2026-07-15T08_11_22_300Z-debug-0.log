@@ -1,0 +1,1456 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\.npmrc
+5 silly config load:file:C:\Users\desk-KLU\.npmrc
+6 silly config load:file:C:\Users\desk-KLU\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund" "--legacy-peer-deps"
+9 verbose logfile logs-max:10 dir:C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\.npm-cache\_logs\2026-07-15T08_11_22_300Z-
+10 verbose logfile C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\.npm-cache\_logs\2026-07-15T08_11_22_300Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @vitejs/plugin-react@latest
+15 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+16 http cache https://registry.npmjs.org/@vitejs%2fplugin-react 33ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react set size:270584 disposed:false
+18 silly fetch manifest framer-motion@latest
+19 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+20 http cache https://registry.npmjs.org/framer-motion 49ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:10030715 disposed:false
+22 silly fetch manifest lucide-react@latest
+23 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+24 http cache https://registry.npmjs.org/lucide-react 39ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:2287696 disposed:false
+26 silly fetch manifest react@latest
+27 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+28 http cache https://registry.npmjs.org/react 60ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/react set size:6792276 disposed:false
+30 silly fetch manifest react-dom@latest
+31 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+32 http cache https://registry.npmjs.org/react-dom 63ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9099028 disposed:false
+34 silly fetch manifest react-router-dom@latest
+35 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+36 http cache https://registry.npmjs.org/react-router-dom 19ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:2887948 disposed:false
+38 silly fetch manifest vite@latest
+39 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+40 http cache https://registry.npmjs.org/vite 106ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/vite set size:38902327 disposed:false
+42 silly fetch manifest vite-plugin-pwa@latest
+43 silly packumentCache full:https://registry.npmjs.org/vite-plugin-pwa cache-miss
+44 http cache https://registry.npmjs.org/vite-plugin-pwa 18ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/vite-plugin-pwa set size:536251 disposed:false
+46 silly fetch manifest typescript@latest
+47 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+48 http cache https://registry.npmjs.org/typescript 120ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/typescript set size:15439943 disposed:false
+50 silly fetch manifest tailwindcss@latest
+51 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+52 http cache https://registry.npmjs.org/tailwindcss 61ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10762619 disposed:false
+54 silly fetch manifest @types/react@latest
+55 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+56 http cache https://registry.npmjs.org/@types%2freact 29ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2632776 disposed:false
+58 silly fetch manifest @types/react-dom@latest
+59 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+60 http cache https://registry.npmjs.org/@types%2freact-dom 14ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:429026 disposed:false
+62 silly placeDep ROOT @types/react@19.2.17 REPLACE for: growth-os@1.0.0 want: latest
+63 silly placeDep ROOT @types/react-dom@19.2.3 REPLACE for: growth-os@1.0.0 want: latest
+64 silly placeDep ROOT @vitejs/plugin-react@6.0.3 REPLACE for: growth-os@1.0.0 want: latest
+65 silly placeDep ROOT framer-motion@12.42.2 REPLACE for: growth-os@1.0.0 want: latest
+66 silly placeDep ROOT lucide-react@1.24.0 REPLACE for: growth-os@1.0.0 want: latest
+67 silly placeDep ROOT react@19.2.7 REPLACE for: growth-os@1.0.0 want: latest
+68 silly placeDep ROOT react-dom@19.2.7 REPLACE for: growth-os@1.0.0 want: latest
+69 silly placeDep ROOT react-router-dom@7.18.1 REPLACE for: growth-os@1.0.0 want: latest
+70 silly placeDep ROOT tailwindcss@4.3.2 REPLACE for: growth-os@1.0.0 want: latest
+71 silly placeDep ROOT typescript@7.0.2 REPLACE for: growth-os@1.0.0 want: latest
+72 silly placeDep ROOT vite@8.1.4 REPLACE for: growth-os@1.0.0 want: latest
+73 silly placeDep ROOT vite-plugin-pwa@1.3.0 REPLACE for: growth-os@1.0.0 want: latest
+74 silly fetch manifest @typescript/typescript-aix-ppc64@7.0.2
+75 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-aix-ppc64 cache-miss
+76 silly fetch manifest @typescript/typescript-linux-arm@7.0.2
+77 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-arm cache-miss
+78 silly fetch manifest @typescript/typescript-linux-x64@7.0.2
+79 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-x64 cache-miss
+80 silly fetch manifest @typescript/typescript-sunos-x64@7.0.2
+81 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-sunos-x64 cache-miss
+82 silly fetch manifest @typescript/typescript-win32-x64@7.0.2
+83 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-win32-x64 cache-miss
+84 silly fetch manifest @typescript/typescript-darwin-x64@7.0.2
+85 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-darwin-x64 cache-miss
+86 silly fetch manifest @typescript/typescript-netbsd-x64@7.0.2
+87 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-netbsd-x64 cache-miss
+88 http cache https://registry.npmjs.org/@typescript%2ftypescript-aix-ppc64 43ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-aix-ppc64 set size:6049 disposed:false
+90 silly fetch manifest @typescript/typescript-freebsd-x64@7.0.2
+91 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-freebsd-x64 cache-miss
+92 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-arm 49ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-arm set size:21259 disposed:false
+94 silly fetch manifest @typescript/typescript-linux-arm64@7.0.2
+95 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-arm64 cache-miss
+96 http cache https://registry.npmjs.org/@typescript%2ftypescript-sunos-x64 54ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-sunos-x64 set size:6046 disposed:false
+98 silly fetch manifest @typescript/typescript-linux-ppc64@7.0.2
+99 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-ppc64 cache-miss
+100 http cache https://registry.npmjs.org/@typescript%2ftypescript-win32-x64 57ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-win32-x64 set size:21257 disposed:false
+102 silly fetch manifest @typescript/typescript-linux-s390x@7.0.2
+103 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-s390x cache-miss
+104 http cache https://registry.npmjs.org/@typescript%2ftypescript-netbsd-x64 59ms (cache hit)
+105 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-netbsd-x64 set size:6065 disposed:false
+106 silly fetch manifest @typescript/typescript-openbsd-x64@7.0.2
+107 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-openbsd-x64 cache-miss
+108 http cache https://registry.npmjs.org/@typescript%2ftypescript-darwin-x64 62ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-darwin-x64 set size:21325 disposed:false
+110 silly fetch manifest @typescript/typescript-win32-arm64@7.0.2
+111 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-win32-arm64 cache-miss
+112 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-x64 67ms (cache hit)
+113 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-x64 set size:21259 disposed:false
+114 silly fetch manifest @typescript/typescript-darwin-arm64@7.0.2
+115 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-darwin-arm64 cache-miss
+116 http cache https://registry.npmjs.org/@typescript%2ftypescript-freebsd-x64 71ms (cache hit)
+117 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-freebsd-x64 set size:6088 disposed:false
+118 silly fetch manifest @typescript/typescript-netbsd-arm64@7.0.2
+119 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-netbsd-arm64 cache-miss
+120 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-arm64 68ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-arm64 set size:21392 disposed:false
+122 silly fetch manifest @typescript/typescript-freebsd-arm64@7.0.2
+123 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-freebsd-arm64 cache-miss
+124 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-ppc64 66ms (cache hit)
+125 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-ppc64 set size:6087 disposed:false
+126 silly fetch manifest @typescript/typescript-linux-loong64@7.0.2
+127 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-loong64 cache-miss
+128 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-s390x 65ms (cache hit)
+129 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-s390x set size:6086 disposed:false
+130 silly fetch manifest @typescript/typescript-linux-riscv64@7.0.2
+131 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-riscv64 cache-miss
+132 http cache https://registry.npmjs.org/@typescript%2ftypescript-openbsd-x64 64ms (cache hit)
+133 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-openbsd-x64 set size:6086 disposed:false
+134 silly fetch manifest @typescript/typescript-openbsd-arm64@7.0.2
+135 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-openbsd-arm64 cache-miss
+136 http cache https://registry.npmjs.org/@typescript%2ftypescript-darwin-arm64 61ms (cache hit)
+137 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-darwin-arm64 set size:21458 disposed:false
+138 silly fetch manifest @typescript/typescript-linux-mips64el@7.0.2
+139 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-mips64el cache-miss
+140 http cache https://registry.npmjs.org/@typescript%2ftypescript-win32-arm64 66ms (cache hit)
+141 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-win32-arm64 set size:21389 disposed:false
+142 silly fetch manifest fsevents@~2.3.3
+143 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+144 http cache https://registry.npmjs.org/@typescript%2ftypescript-netbsd-arm64 38ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-netbsd-arm64 set size:6109 disposed:false
+146 http cache https://registry.npmjs.org/@typescript%2ftypescript-freebsd-arm64 37ms (cache hit)
+147 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-freebsd-arm64 set size:6126 disposed:false
+148 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-riscv64 34ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-riscv64 set size:6127 disposed:false
+150 http cache https://registry.npmjs.org/@typescript%2ftypescript-openbsd-arm64 33ms (cache hit)
+151 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-openbsd-arm64 set size:6126 disposed:false
+152 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-mips64el 33ms (cache hit)
+153 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-mips64el set size:6146 disposed:false
+154 http cache https://registry.npmjs.org/@typescript%2ftypescript-linux-loong64 40ms (cache hit)
+155 silly packumentCache full:https://registry.npmjs.org/@typescript%2ftypescript-linux-loong64 set size:6127 disposed:false
+156 http cache https://registry.npmjs.org/fsevents 33ms (cache hit)
+157 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+158 silly fetch manifest lightningcss-darwin-x64@1.32.0
+159 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+160 http cache https://registry.npmjs.org/lightningcss-darwin-x64 12ms (cache hit)
+161 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:78694 disposed:false
+162 silly fetch manifest lightningcss-linux-x64-gnu@1.32.0
+163 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+164 http cache https://registry.npmjs.org/lightningcss-linux-x64-gnu 35ms (cache hit)
+165 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:80105 disposed:false
+166 silly fetch manifest lightningcss-win32-arm64-msvc@1.32.0
+167 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+168 http cache https://registry.npmjs.org/lightningcss-win32-arm64-msvc 12ms (cache hit)
+169 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:26629 disposed:false
+170 silly fetch manifest lightningcss-darwin-arm64@1.32.0
+171 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+172 http cache https://registry.npmjs.org/lightningcss-darwin-arm64 11ms (cache hit)
+173 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:79276 disposed:false
+174 silly fetch manifest lightningcss-linux-arm64-gnu@1.32.0
+175 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+176 http cache https://registry.npmjs.org/lightningcss-linux-arm64-gnu 10ms (cache hit)
+177 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:80669 disposed:false
+178 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.32.0
+179 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+180 http cache https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 11ms (cache hit)
+181 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:80903 disposed:false
+182 silly fetch manifest lightningcss-linux-arm64-musl@1.32.0
+183 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+184 http cache https://registry.npmjs.org/lightningcss-linux-arm64-musl 11ms (cache hit)
+185 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:80887 disposed:false
+186 silly fetch manifest lightningcss-linux-x64-musl@1.32.0
+187 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+188 http cache https://registry.npmjs.org/lightningcss-linux-x64-musl 10ms (cache hit)
+189 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:80313 disposed:false
+190 silly fetch manifest lightningcss-freebsd-x64@1.32.0
+191 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+192 http cache https://registry.npmjs.org/lightningcss-freebsd-x64 11ms (cache hit)
+193 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:42877 disposed:false
+194 silly fetch manifest lightningcss-android-arm64@1.32.0
+195 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+196 http cache https://registry.npmjs.org/lightningcss-android-arm64 10ms (cache hit)
+197 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:7671 disposed:false
+198 silly placeDep node_modules/lightningcss lightningcss-android-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+199 silly placeDep node_modules/lightningcss lightningcss-darwin-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+200 silly placeDep node_modules/lightningcss lightningcss-darwin-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+201 silly placeDep node_modules/lightningcss lightningcss-freebsd-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+202 silly placeDep node_modules/lightningcss lightningcss-linux-arm-gnueabihf@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+203 silly placeDep node_modules/lightningcss lightningcss-linux-arm64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+204 silly placeDep node_modules/lightningcss lightningcss-linux-arm64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+205 silly placeDep node_modules/lightningcss lightningcss-linux-x64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+206 silly placeDep node_modules/lightningcss lightningcss-linux-x64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+207 silly placeDep node_modules/lightningcss lightningcss-win32-arm64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+208 silly fetch manifest @rolldown/binding-darwin-x64@1.1.5
+209 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 cache-miss
+210 http cache https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 20ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 set size:1376295 disposed:false
+212 silly fetch manifest @rolldown/binding-linux-x64-gnu@1.1.5
+213 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu cache-miss
+214 http cache https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu 31ms (cache hit)
+215 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu set size:1401686 disposed:false
+216 silly fetch manifest @rolldown/binding-linux-x64-musl@1.1.5
+217 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl cache-miss
+218 http cache https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl 20ms (cache hit)
+219 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl set size:1406349 disposed:false
+220 silly fetch manifest @rolldown/binding-freebsd-x64@1.1.5
+221 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 cache-miss
+222 http cache https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 19ms (cache hit)
+223 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 set size:1055990 disposed:false
+224 silly fetch manifest @rolldown/binding-linux-arm-gnueabihf@1.1.5
+225 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf cache-miss
+226 http cache https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf 40ms (cache hit)
+227 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf set size:1422994 disposed:false
+228 silly fetch manifest @rolldown/binding-linux-arm64-gnu@1.1.5
+229 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu cache-miss
+230 http cache https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu 19ms (cache hit)
+231 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu set size:1413438 disposed:false
+232 silly fetch manifest @rolldown/binding-darwin-arm64@1.1.5
+233 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 cache-miss
+234 http cache https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 18ms (cache hit)
+235 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 set size:1388008 disposed:false
+236 silly fetch manifest @rolldown/binding-linux-arm64-musl@1.1.5
+237 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl cache-miss
+238 http cache https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl 25ms (cache hit)
+239 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl set size:1418065 disposed:false
+240 silly fetch manifest @rolldown/binding-openharmony-arm64@1.1.5
+241 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 cache-miss
+242 http cache https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 14ms (cache hit)
+243 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 set size:124379 disposed:false
+244 silly fetch manifest @rolldown/binding-win32-arm64-msvc@1.1.5
+245 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc cache-miss
+246 http cache https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc 23ms (cache hit)
+247 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc set size:1408448 disposed:false
+248 silly fetch manifest @rolldown/binding-android-arm64@1.1.5
+249 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 cache-miss
+250 http cache https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 15ms (cache hit)
+251 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 set size:162504 disposed:false
+252 silly fetch manifest @rolldown/binding-wasm32-wasi@1.1.5
+253 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-wasm32-wasi cache-miss
+254 http cache https://registry.npmjs.org/@rolldown%2fbinding-wasm32-wasi 19ms (cache hit)
+255 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-wasm32-wasi set size:1364875 disposed:false
+256 silly fetch manifest @rolldown/binding-linux-s390x-gnu@1.1.5
+257 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu cache-miss
+258 http cache https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu 15ms (cache hit)
+259 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu set size:50019 disposed:false
+260 silly fetch manifest @rolldown/binding-linux-ppc64-gnu@1.1.5
+261 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu cache-miss
+262 http cache https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu 14ms (cache hit)
+263 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu set size:50027 disposed:false
+264 silly placeDep node_modules/rolldown @rolldown/binding-android-arm64@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+265 silly placeDep node_modules/rolldown @rolldown/binding-darwin-arm64@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+266 silly placeDep node_modules/rolldown @rolldown/binding-darwin-x64@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+267 silly placeDep node_modules/rolldown @rolldown/binding-freebsd-x64@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+268 silly placeDep node_modules/rolldown @rolldown/binding-linux-arm-gnueabihf@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+269 silly placeDep node_modules/rolldown @rolldown/binding-linux-arm64-gnu@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+270 silly placeDep node_modules/rolldown @rolldown/binding-linux-arm64-musl@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+271 silly placeDep node_modules/rolldown @rolldown/binding-linux-ppc64-gnu@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+272 silly placeDep node_modules/rolldown @rolldown/binding-linux-s390x-gnu@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+273 silly placeDep node_modules/rolldown @rolldown/binding-linux-x64-gnu@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+274 silly placeDep node_modules/rolldown @rolldown/binding-linux-x64-musl@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+275 silly placeDep node_modules/rolldown @rolldown/binding-openharmony-arm64@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+276 silly placeDep node_modules/rolldown @rolldown/binding-wasm32-wasi@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+277 silly placeDep node_modules/rolldown @rolldown/binding-win32-arm64-msvc@1.1.5 OK for: rolldown@1.1.5 want: 1.1.5
+278 silly fetch manifest fsevents@~2.3.2
+279 silly packumentCache full:https://registry.npmjs.org/fsevents cache-hit
+280 silly fetch manifest @rollup/rollup-darwin-arm64@4.62.2
+281 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 cache-miss
+282 http cache https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 14ms (cache hit)
+283 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 set size:347013 disposed:false
+284 silly fetch manifest @rollup/rollup-android-arm64@4.62.2
+285 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 cache-miss
+286 http cache https://registry.npmjs.org/@rollup%2frollup-android-arm64 14ms (cache hit)
+287 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 set size:348555 disposed:false
+288 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.62.2
+289 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc cache-miss
+290 http cache https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 12ms (cache hit)
+291 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc set size:352045 disposed:false
+292 silly fetch manifest @rollup/rollup-freebsd-arm64@4.62.2
+293 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 cache-miss
+294 http cache https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 19ms (cache hit)
+295 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 set size:196758 disposed:false
+296 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.62.2
+297 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu cache-miss
+298 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 14ms (cache hit)
+299 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu set size:354340 disposed:false
+300 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.62.2
+301 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl cache-miss
+302 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 12ms (cache hit)
+303 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl set size:309760 disposed:false
+304 silly fetch manifest @rollup/rollup-android-arm-eabi@4.62.2
+305 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi cache-miss
+306 http cache https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 15ms (cache hit)
+307 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi set size:352055 disposed:false
+308 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.62.2
+309 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf cache-miss
+310 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 13ms (cache hit)
+311 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf set size:357969 disposed:false
+312 silly fetch manifest @rollup/rollup-linux-arm-musleabihf@4.62.2
+313 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf cache-miss
+314 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 12ms (cache hit)
+315 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf set size:252175 disposed:false
+316 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.62.2
+317 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc cache-miss
+318 http cache https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 14ms (cache hit)
+319 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc set size:350519 disposed:false
+320 silly fetch manifest @rollup/rollup-linux-loong64-gnu@4.62.2
+321 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu cache-miss
+322 http cache https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 12ms (cache hit)
+323 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu set size:78884 disposed:false
+324 silly fetch manifest @rollup/rollup-linux-loong64-musl@4.62.2
+325 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl cache-miss
+326 http cache https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl 12ms (cache hit)
+327 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl set size:40918 disposed:false
+328 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.62.2
+329 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu cache-miss
+330 http cache https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 15ms (cache hit)
+331 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu set size:280570 disposed:false
+332 silly fetch manifest @rollup/rollup-linux-riscv64-musl@4.62.2
+333 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl cache-miss
+334 http cache https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 15ms (cache hit)
+335 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl set size:126584 disposed:false
+336 silly fetch manifest @rollup/rollup-linux-ppc64-gnu@4.62.2
+337 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu cache-miss
+338 http cache https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 14ms (cache hit)
+339 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu set size:99023 disposed:false
+340 silly fetch manifest @rollup/rollup-linux-ppc64-musl@4.62.2
+341 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl cache-miss
+342 http cache https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl 13ms (cache hit)
+343 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl set size:40580 disposed:false
+344 silly fetch manifest @rollup/rollup-linux-s390x-gnu@4.62.2
+345 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu cache-miss
+346 http cache https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 75ms (cache hit)
+347 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu set size:254191 disposed:false
+348 silly fetch manifest @rollup/rollup-darwin-x64@4.62.2
+349 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 cache-miss
+350 http cache https://registry.npmjs.org/@rollup%2frollup-darwin-x64 19ms (cache hit)
+351 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 set size:342135 disposed:false
+352 silly fetch manifest @rollup/rollup-freebsd-x64@4.62.2
+353 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 cache-miss
+354 http cache https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 15ms (cache hit)
+355 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 set size:194771 disposed:false
+356 silly fetch manifest @rollup/rollup-linux-x64-gnu@4.62.2
+357 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu cache-miss
+358 http cache https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 16ms (cache hit)
+359 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu set size:349401 disposed:false
+360 silly fetch manifest @rollup/rollup-linux-x64-musl@4.62.2
+361 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl cache-miss
+362 http cache https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 28ms (cache hit)
+363 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl set size:348779 disposed:false
+364 silly fetch manifest @rollup/rollup-openbsd-x64@4.62.2
+365 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 cache-miss
+366 http cache https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 18ms (cache hit)
+367 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 set size:39516 disposed:false
+368 silly fetch manifest @rollup/rollup-openharmony-arm64@4.62.2
+369 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 cache-miss
+370 http cache https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 14ms (cache hit)
+371 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 set size:79697 disposed:false
+372 silly placeDep node_modules/rollup @rollup/rollup-android-arm-eabi@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+373 silly placeDep node_modules/rollup @rollup/rollup-android-arm64@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+374 silly placeDep node_modules/rollup @rollup/rollup-darwin-arm64@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+375 silly placeDep node_modules/rollup @rollup/rollup-darwin-x64@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+376 silly placeDep node_modules/rollup @rollup/rollup-freebsd-arm64@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+377 silly placeDep node_modules/rollup @rollup/rollup-freebsd-x64@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+378 silly placeDep node_modules/rollup @rollup/rollup-linux-arm-gnueabihf@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+379 silly placeDep node_modules/rollup @rollup/rollup-linux-arm-musleabihf@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+380 silly placeDep node_modules/rollup @rollup/rollup-linux-arm64-gnu@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+381 silly placeDep node_modules/rollup @rollup/rollup-linux-arm64-musl@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+382 silly placeDep node_modules/rollup @rollup/rollup-linux-loong64-gnu@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+383 silly placeDep node_modules/rollup @rollup/rollup-linux-loong64-musl@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+384 silly placeDep node_modules/rollup @rollup/rollup-linux-ppc64-gnu@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+385 silly placeDep node_modules/rollup @rollup/rollup-linux-ppc64-musl@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+386 silly placeDep node_modules/rollup @rollup/rollup-linux-riscv64-gnu@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+387 silly placeDep node_modules/rollup @rollup/rollup-linux-riscv64-musl@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+388 silly placeDep node_modules/rollup @rollup/rollup-linux-s390x-gnu@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+389 silly placeDep node_modules/rollup @rollup/rollup-linux-x64-gnu@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+390 silly placeDep node_modules/rollup @rollup/rollup-linux-x64-musl@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+391 silly placeDep node_modules/rollup @rollup/rollup-openbsd-x64@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+392 silly placeDep node_modules/rollup @rollup/rollup-openharmony-arm64@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+393 silly placeDep node_modules/rollup @rollup/rollup-win32-arm64-msvc@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+394 silly placeDep node_modules/rollup @rollup/rollup-win32-ia32-msvc@4.62.2 OK for: rollup@4.62.2 want: 4.62.2
+395 silly placeDep ROOT fsevents@2.3.3 OK for: rollup@4.62.2 want: ~2.3.2
+396 silly placeDep ROOT @typescript/typescript-aix-ppc64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+397 silly placeDep ROOT @typescript/typescript-darwin-arm64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+398 silly placeDep ROOT @typescript/typescript-darwin-x64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+399 silly placeDep ROOT @typescript/typescript-freebsd-arm64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+400 silly placeDep ROOT @typescript/typescript-freebsd-x64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+401 silly placeDep ROOT @typescript/typescript-linux-arm@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+402 silly placeDep ROOT @typescript/typescript-linux-arm64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+403 silly placeDep ROOT @typescript/typescript-linux-loong64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+404 silly placeDep ROOT @typescript/typescript-linux-mips64el@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+405 silly placeDep ROOT @typescript/typescript-linux-ppc64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+406 silly placeDep ROOT @typescript/typescript-linux-riscv64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+407 silly placeDep ROOT @typescript/typescript-linux-s390x@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+408 silly placeDep ROOT @typescript/typescript-linux-x64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+409 silly placeDep ROOT @typescript/typescript-netbsd-arm64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+410 silly placeDep ROOT @typescript/typescript-netbsd-x64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+411 silly placeDep ROOT @typescript/typescript-openbsd-arm64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+412 silly placeDep ROOT @typescript/typescript-openbsd-x64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+413 silly placeDep ROOT @typescript/typescript-sunos-x64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+414 silly placeDep ROOT @typescript/typescript-win32-arm64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+415 silly placeDep ROOT @typescript/typescript-win32-x64@7.0.2 OK for: typescript@7.0.2 want: 7.0.2
+416 silly reify mark retired [
+416 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\fsevents'
+416 silly reify ]
+417 silly reify mark retired [
+417 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-android-arm64'
+417 silly reify ]
+418 silly reify mark retired [
+418 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-darwin-arm64'
+418 silly reify ]
+419 silly reify mark retired [
+419 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-darwin-x64'
+419 silly reify ]
+420 silly reify mark retired [
+420 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-freebsd-x64'
+420 silly reify ]
+421 silly reify mark retired [
+421 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-arm-gnueabihf'
+421 silly reify ]
+422 silly reify mark retired [
+422 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-arm64-gnu'
+422 silly reify ]
+423 silly reify mark retired [
+423 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-arm64-musl'
+423 silly reify ]
+424 silly reify mark retired [
+424 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-x64-gnu'
+424 silly reify ]
+425 silly reify mark retired [
+425 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-x64-musl'
+425 silly reify ]
+426 silly reify mark retired [
+426 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-win32-arm64-msvc'
+426 silly reify ]
+427 silly reify mark retired [
+427 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-android-arm64'
+427 silly reify ]
+428 silly reify mark retired [
+428 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-darwin-arm64'
+428 silly reify ]
+429 silly reify mark retired [
+429 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-freebsd-x64'
+429 silly reify ]
+430 silly reify mark retired [
+430 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-darwin-x64'
+430 silly reify ]
+431 silly reify mark retired [
+431 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf'
+431 silly reify ]
+432 silly reify mark retired [
+432 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-arm64-gnu'
+432 silly reify ]
+433 silly reify mark retired [
+433 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-arm64-musl'
+433 silly reify ]
+434 silly reify mark retired [
+434 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-s390x-gnu'
+434 silly reify ]
+435 silly reify mark retired [
+435 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-ppc64-gnu'
+435 silly reify ]
+436 silly reify mark retired [
+436 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-x64-gnu'
+436 silly reify ]
+437 silly reify mark retired [
+437 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-openharmony-arm64'
+437 silly reify ]
+438 silly reify mark retired [
+438 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-x64-musl'
+438 silly reify ]
+439 silly reify mark retired [
+439 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-wasm32-wasi'
+439 silly reify ]
+440 silly reify mark retired [
+440 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-win32-arm64-msvc'
+440 silly reify ]
+441 silly reify mark retired [
+441 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-android-arm-eabi'
+441 silly reify ]
+442 silly reify mark retired [
+442 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-android-arm64'
+442 silly reify ]
+443 silly reify mark retired [
+443 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-darwin-arm64'
+443 silly reify ]
+444 silly reify mark retired [
+444 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-darwin-x64'
+444 silly reify ]
+445 silly reify mark retired [
+445 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-freebsd-arm64'
+445 silly reify ]
+446 silly reify mark retired [
+446 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-freebsd-x64'
+446 silly reify ]
+447 silly reify mark retired [
+447 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+447 silly reify ]
+448 silly reify mark retired [
+448 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+451 silly reify ]
+452 silly reify mark retired [
+452 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+452 silly reify ]
+453 silly reify mark retired [
+453 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+453 silly reify ]
+454 silly reify mark retired [
+454 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+454 silly reify ]
+455 silly reify mark retired [
+455 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+455 silly reify ]
+456 silly reify mark retired [
+456 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+456 silly reify ]
+457 silly reify mark retired [
+457 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+457 silly reify ]
+458 silly reify mark retired [
+458 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+458 silly reify ]
+459 silly reify mark retired [
+459 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-x64-musl'
+459 silly reify ]
+460 silly reify mark retired [
+460 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-openbsd-x64'
+460 silly reify ]
+461 silly reify mark retired [
+461 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-openharmony-arm64'
+461 silly reify ]
+462 silly reify mark retired [
+462 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+462 silly reify ]
+463 silly reify mark retired [
+463 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+463 silly reify ]
+464 silly reify mark retired [
+464 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-aix-ppc64'
+464 silly reify ]
+465 silly reify mark retired [
+465 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-darwin-arm64'
+465 silly reify ]
+466 silly reify mark retired [
+466 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-darwin-x64'
+466 silly reify ]
+467 silly reify mark retired [
+467 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-freebsd-x64'
+467 silly reify ]
+468 silly reify mark retired [
+468 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-freebsd-arm64'
+468 silly reify ]
+469 silly reify mark retired [
+469 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-loong64'
+469 silly reify ]
+470 silly reify mark retired [
+470 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-arm'
+470 silly reify ]
+471 silly reify mark retired [
+471 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-arm64'
+471 silly reify ]
+472 silly reify mark retired [
+472 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-mips64el'
+472 silly reify ]
+473 silly reify mark retired [
+473 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-ppc64'
+473 silly reify ]
+474 silly reify mark retired [
+474 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-riscv64'
+474 silly reify ]
+475 silly reify mark retired [
+475 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-s390x'
+475 silly reify ]
+476 silly reify mark retired [
+476 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-x64'
+476 silly reify ]
+477 silly reify mark retired [
+477 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-netbsd-arm64'
+477 silly reify ]
+478 silly reify mark retired [
+478 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-netbsd-x64'
+478 silly reify ]
+479 silly reify mark retired [
+479 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-openbsd-arm64'
+479 silly reify ]
+480 silly reify mark retired [
+480 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-openbsd-x64'
+480 silly reify ]
+481 silly reify mark retired [
+481 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-sunos-x64'
+481 silly reify ]
+482 silly reify mark retired [
+482 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-win32-arm64'
+482 silly reify ]
+483 silly reify mark retired [
+483 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-win32-x64'
+483 silly reify ]
+484 silly reify mark retired [
+484 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\acorn',
+484 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\acorn',
+484 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\acorn.cmd',
+484 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\acorn.ps1'
+484 silly reify ]
+485 silly reify mark retired [
+485 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\browserslist',
+485 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\browserslist',
+485 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\browserslist.cmd',
+485 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\browserslist.ps1'
+485 silly reify ]
+486 silly reify mark retired [
+486 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\baseline-browser-mapping',
+486 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\baseline-browser-mapping',
+486 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+486 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+486 silly reify ]
+487 silly reify mark retired [
+487 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\ejs',
+487 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\ejs',
+487 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\ejs.cmd',
+487 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\ejs.ps1'
+487 silly reify ]
+488 silly reify mark retired [
+488 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\framer-motion'
+488 silly reify ]
+489 silly reify mark retired [
+489 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\glob',
+489 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\glob',
+489 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\glob.cmd',
+489 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\glob.ps1'
+489 silly reify ]
+490 silly reify mark retired [
+490 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\jsesc',
+490 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jsesc',
+490 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jsesc.cmd',
+490 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jsesc.ps1'
+490 silly reify ]
+491 silly reify mark retired [
+491 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\json5',
+491 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\json5',
+491 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\json5.cmd',
+491 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\json5.ps1'
+491 silly reify ]
+492 silly reify mark retired [
+492 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\jake',
+492 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jake',
+492 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jake.cmd',
+492 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jake.ps1'
+492 silly reify ]
+493 silly reify mark retired [
+493 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lucide-react'
+493 silly reify ]
+494 silly reify mark retired [
+494 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\nanoid',
+494 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\nanoid',
+494 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\nanoid.cmd',
+494 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\nanoid.ps1'
+494 silly reify ]
+495 silly reify mark retired [
+495 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\react'
+495 silly reify ]
+496 silly reify mark retired [
+496 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\react-dom'
+496 silly reify ]
+497 silly reify mark retired [
+497 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\react-router-dom'
+497 silly reify ]
+498 silly reify mark retired [
+498 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\regjsparser',
+498 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\regjsparser',
+498 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\regjsparser.cmd',
+498 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\regjsparser.ps1'
+498 silly reify ]
+499 silly reify mark retired [
+499 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\resolve',
+499 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\resolve',
+499 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\resolve.cmd',
+499 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\resolve.ps1'
+499 silly reify ]
+500 silly reify mark retired [
+500 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown',
+500 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rolldown',
+500 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rolldown.cmd',
+500 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rolldown.ps1'
+500 silly reify ]
+501 silly reify mark retired [
+501 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup',
+501 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rollup',
+501 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rollup.cmd',
+501 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rollup.ps1'
+501 silly reify ]
+502 silly reify mark retired [
+502 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\semver',
+502 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\semver',
+502 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\semver.cmd',
+502 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\semver.ps1'
+502 silly reify ]
+503 silly reify mark retired [
+503 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\tailwindcss'
+503 silly reify ]
+504 silly reify mark retired [
+504 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\terser',
+504 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\terser',
+504 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\terser.cmd',
+504 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\terser.ps1'
+504 silly reify ]
+505 silly reify mark retired [
+505 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\typescript',
+505 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\tsc',
+505 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\tsc.cmd',
+505 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\tsc.ps1'
+505 silly reify ]
+506 silly reify mark retired [
+506 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\update-browserslist-db',
+506 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\update-browserslist-db',
+506 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\update-browserslist-db.cmd',
+506 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\update-browserslist-db.ps1'
+506 silly reify ]
+507 silly reify mark retired [
+507 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\vite-plugin-pwa'
+507 silly reify ]
+508 silly reify mark retired [
+508 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\which',
+508 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\node-which',
+508 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\node-which.cmd',
+508 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\node-which.ps1'
+508 silly reify ]
+509 silly reify mark retired [
+509 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\vite',
+509 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\vite',
+509 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\vite.cmd',
+509 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\vite.ps1'
+509 silly reify ]
+510 silly reify mark retired [
+510 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@babel\\parser',
+510 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\parser',
+510 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\parser.cmd',
+510 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\parser.ps1'
+510 silly reify ]
+511 silly reify mark retired [
+511 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@types\\react'
+511 silly reify ]
+512 silly reify mark retired [
+512 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@types\\react-dom'
+512 silly reify ]
+513 silly reify mark retired [
+513 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@vitejs\\plugin-react'
+513 silly reify ]
+514 silly reify moves {
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\fsevents': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.fsevents-h8XbWx15',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-android-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-android-arm64-xlVK37bT',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-darwin-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-darwin-arm64-QuWhIH1Y',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-darwin-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-darwin-x64-MZcEDdOj',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-freebsd-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-freebsd-x64-g2iEEiKG',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-arm-gnueabihf': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-linux-arm-gnueabihf-ROIYP4ov',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-arm64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-linux-arm64-gnu-Fo9OnPim',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-arm64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-linux-arm64-musl-gzgaCcY2',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-x64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-linux-x64-gnu-yq5zQLjd',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-linux-x64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-linux-x64-musl-9NrdYuPo',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss-win32-arm64-msvc': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lightningcss-win32-arm64-msvc-X4F7eNZu',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-android-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-android-arm64-329suz5C',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-darwin-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-darwin-arm64-DwOYNncY',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-freebsd-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-freebsd-x64-B0hw0g0n',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-darwin-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-darwin-x64-NWDDgDBI',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-linux-arm-gnueabihf-iV4vDoB0',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-arm64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-linux-arm64-gnu-a6v7x9G1',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-arm64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-linux-arm64-musl-0sCTdIJy',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-s390x-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-linux-s390x-gnu-DEpvBNSj',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-ppc64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-linux-ppc64-gnu-amaSrYN1',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-x64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-linux-x64-gnu-NNpiAvOD',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-openharmony-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-openharmony-arm64-Cw1LDjxo',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-linux-x64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-linux-x64-musl-URRXEquf',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-wasm32-wasi': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-wasm32-wasi-dkdgYIBq',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\binding-win32-arm64-msvc': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rolldown\\.binding-win32-arm64-msvc-KcB7kiwG',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-android-arm-eabi': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-android-arm-eabi-iBNiV9lL',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-android-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-android-arm64-jPoaoiOw',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-darwin-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-darwin-arm64-PZO5yDIJ',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-darwin-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-darwin-x64-0Gg4BfAY',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-freebsd-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-freebsd-arm64-3XE3x9Qd',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-freebsd-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-freebsd-x64-X4q1d7Fv',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm-musleabihf': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-arm-musleabihf-JBZpWaP1',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-arm-gnueabihf-KrJvRtgJ',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-arm64-musl-XQRl4RzK',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-arm64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-arm64-gnu-y7HiOl13',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-loong64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-loong64-gnu-ihmkzM0n',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-loong64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-loong64-musl-AC9ynmEt',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-ppc64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-ppc64-gnu-wmGw8mZd',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-ppc64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-ppc64-musl-PkyKhZDb',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-riscv64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-riscv64-gnu-QKotKYeq',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-riscv64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-riscv64-musl-M1FPauVP',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-s390x-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-s390x-gnu-6lmtCUvb',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-x64-gnu': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-x64-gnu-ABXXh7Pa',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-linux-x64-musl': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-linux-x64-musl-byNef9HV',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-openbsd-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-openbsd-x64-Rau2a6OD',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-openharmony-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-openharmony-arm64-ApSmcRF3',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-win32-arm64-msvc': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-win32-arm64-msvc-ko1DN1mS',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\rollup-win32-ia32-msvc': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@rollup\\.rollup-win32-ia32-msvc-AUFn4eNq',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-aix-ppc64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-aix-ppc64-ZV2HQkXx',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-darwin-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-darwin-arm64-IkfsQ8da',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-darwin-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-darwin-x64-RFF8NUvV',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-freebsd-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-freebsd-x64-j5DV4S1a',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-freebsd-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-freebsd-arm64-4XJyNsXW',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-loong64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-loong64-CV1tWYwa',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-arm': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-arm-K5fCnlV1',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-arm64-PiZx3hoe',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-mips64el': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-mips64el-WfXnFlq8',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-ppc64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-ppc64-14wwVgnE',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-riscv64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-riscv64-EO2aDt8K',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-s390x': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-s390x-ozV9cbVR',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-linux-x64-hKf4Adsf',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-netbsd-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-netbsd-arm64-4h2HxyIE',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-netbsd-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-netbsd-x64-AYfzg72w',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-openbsd-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-openbsd-arm64-Doop74CG',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-openbsd-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-openbsd-x64-2zG9qG8t',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-sunos-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-sunos-x64-OkY9qX4N',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-win32-arm64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-win32-arm64-yKEzOFDR',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-win32-x64': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\.typescript-win32-x64-o1hWHG6n',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\acorn': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.acorn-1guUMc2C',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\acorn': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.acorn-aRf3h92F',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.acorn.cmd-OSZ3CEMK',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.acorn.ps1-1FoQPh2o',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\browserslist': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.browserslist-kWoonoUN',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\browserslist': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.browserslist-DmKpqvqE',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.browserslist.cmd-A9FcHPqo',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.browserslist.ps1-IIdDvIh8',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\baseline-browser-mapping': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.baseline-browser-mapping-TcSFiMs4',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.baseline-browser-mapping-Zmc8tk3r',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.baseline-browser-mapping.cmd-m5a0G2Fn',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.baseline-browser-mapping.ps1-VeSfXuEM',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\ejs': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.ejs-L2WwDR6N',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\ejs': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.ejs-FNiRO4kj',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\ejs.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.ejs.cmd-sTph5cvD',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\ejs.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.ejs.ps1-N33C4OSS',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\framer-motion': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.framer-motion-BoOuHLL5',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\glob': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.glob-zrbL6s80',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\glob': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.glob-c2lIxrfv',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\glob.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.glob.cmd-4gTLB11z',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\glob.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.glob.ps1-weMBSp6M',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\jsesc': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.jsesc-7YmAGtLz',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jsesc': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.jsesc-YN3t9Hxc',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jsesc.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.jsesc.cmd-QNPx0AI8',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jsesc.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.jsesc.ps1-YqRQ89gm',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\json5': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.json5-1Lyvkkzn',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\json5': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.json5-7hsltNPb',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.json5.cmd-qNHdb4My',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.json5.ps1-J3ozuf0J',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\jake': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.jake-z5rTgDMV',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jake': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.jake-mPC5vBE6',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jake.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.jake.cmd-y1WvccnJ',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\jake.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.jake.ps1-zSMLAHzY',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lucide-react': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.lucide-react-qVkTvHHh',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\nanoid': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.nanoid-jddbW4Om',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\nanoid': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.nanoid-1Oq97S0N',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.nanoid.cmd-a3JMw0V9',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.nanoid.ps1-VIWRshkj',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\react': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.react-rkuKrrjn',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\react-dom': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.react-dom-Pv5y7itj',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\react-router-dom': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.react-router-dom-ciCCDven',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\regjsparser': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.regjsparser-EFSoCC88',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\regjsparser': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.regjsparser-KWfyPkPs',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\regjsparser.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.regjsparser.cmd-QdNTyxfZ',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\regjsparser.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.regjsparser.ps1-Y1K21kjj',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\resolve': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.resolve-zmfJdbMv',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\resolve': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.resolve-HzHij5G6',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.resolve.cmd-fKNY9Y3I',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.resolve.ps1-1uA3UrcL',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.rolldown-wqcryBTc',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rolldown': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.rolldown-IkXi7HNK',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rolldown.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.rolldown.cmd-B2bi1MRk',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rolldown.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.rolldown.ps1-N7PgxNz3',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.rollup-2fGA62ZR',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rollup': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.rollup-EqLMueWc',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rollup.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.rollup.cmd-9j7I9jxl',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\rollup.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.rollup.ps1-Cm9RjB6x',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\semver': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.semver-GiWPHS3d',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\semver': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.semver-hsUfzHe0',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.semver.cmd-L0sXwltJ',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.semver.ps1-0OU8Q7GE',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\tailwindcss': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.tailwindcss-Z5c6xrCU',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\terser': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.terser-ul0uHSSv',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\terser': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.terser-gyNahV3H',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\terser.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.terser.cmd-dcR84tmq',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\terser.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.terser.ps1-9zayVsZd',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\typescript': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.typescript-zYHKWBfy',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\tsc': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.tsc-AcV1nyBn',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.tsc.cmd-zXZyN0QX',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.tsc.ps1-seIJTK4y',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\update-browserslist-db': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.update-browserslist-db-CLlLNlkG',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.update-browserslist-db-nSc5DcKx',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.update-browserslist-db.cmd-fd1jkhNp',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.update-browserslist-db.ps1-xf4AnUwD',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\vite-plugin-pwa': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.vite-plugin-pwa-L2e1ZNIL',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\which': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.which-VHj13HEU',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\node-which': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.node-which-3gyHlG2K',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.node-which.cmd-oRFPRimj',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.node-which.ps1-GZbDfTa1',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\vite': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.vite-qWXF2ya3',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\vite': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.vite-jfOfYAzJ',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\vite.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.vite.cmd-IjYzDSpa',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\vite.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.vite.ps1-QtUVCo9q',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@babel\\parser': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@babel\\.parser-aGKhrq9i',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\parser': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.parser-XTkrFZaK',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.parser.cmd-7zCgmzkl',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\.bin\\.parser.ps1-DrIHXTMT',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@types\\react': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@types\\.react-1bOhO1F9',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@types\\react-dom': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@types\\.react-dom-pl2i3vn5',
+514 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@vitejs\\plugin-react': 'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@vitejs\\.plugin-react-mhzY2eVu'
+514 silly reify }
+515 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-win32-ia32-msvc
+516 silly reify mark deleted [
+516 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+516 silly reify ]
+517 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-win32-arm64-msvc
+518 silly reify mark deleted [
+518 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+518 silly reify ]
+519 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-openharmony-arm64
+520 silly reify mark deleted [
+520 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-openharmony-arm64'
+520 silly reify ]
+521 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-openbsd-x64
+522 silly reify mark deleted [
+522 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-openbsd-x64'
+522 silly reify ]
+523 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-x64-musl
+524 silly reify mark deleted [
+524 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-x64-musl'
+524 silly reify ]
+525 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-x64-gnu
+526 silly reify mark deleted [
+526 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+526 silly reify ]
+527 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-s390x-gnu
+528 silly reify mark deleted [
+528 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+528 silly reify ]
+529 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-riscv64-musl
+530 silly reify mark deleted [
+530 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+530 silly reify ]
+531 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-riscv64-gnu
+532 silly reify mark deleted [
+532 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+532 silly reify ]
+533 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-ppc64-musl
+534 silly reify mark deleted [
+534 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+534 silly reify ]
+535 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-ppc64-gnu
+536 silly reify mark deleted [
+536 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+536 silly reify ]
+537 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-loong64-musl
+538 silly reify mark deleted [
+538 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+538 silly reify ]
+539 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-loong64-gnu
+540 silly reify mark deleted [
+540 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+540 silly reify ]
+541 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-arm64-musl
+542 silly reify mark deleted [
+542 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+542 silly reify ]
+543 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-arm64-gnu
+544 silly reify mark deleted [
+544 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+544 silly reify ]
+545 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-arm-musleabihf
+546 silly reify mark deleted [
+546 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+546 silly reify ]
+547 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-linux-arm-gnueabihf
+548 silly reify mark deleted [
+548 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+548 silly reify ]
+549 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-freebsd-x64
+550 silly reify mark deleted [
+550 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-freebsd-x64'
+550 silly reify ]
+551 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-freebsd-arm64
+552 silly reify mark deleted [
+552 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-freebsd-arm64'
+552 silly reify ]
+553 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-darwin-x64
+554 silly reify mark deleted [
+554 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-darwin-x64'
+554 silly reify ]
+555 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-darwin-arm64
+556 silly reify mark deleted [
+556 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-darwin-arm64'
+556 silly reify ]
+557 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-android-arm64
+558 silly reify mark deleted [
+558 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-android-arm64'
+558 silly reify ]
+559 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rollup\node_modules\@rollup\rollup-android-arm-eabi
+560 silly reify mark deleted [
+560 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rollup\\node_modules\\@rollup\\rollup-android-arm-eabi'
+560 silly reify ]
+561 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-win32-arm64-msvc
+562 silly reify mark deleted [
+562 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-win32-arm64-msvc'
+562 silly reify ]
+563 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-wasm32-wasi
+564 silly reify mark deleted [
+564 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-wasm32-wasi'
+564 silly reify ]
+565 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@napi-rs\wasm-runtime
+566 silly reify mark deleted [
+566 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@napi-rs\\wasm-runtime'
+566 silly reify ]
+567 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@emnapi\core
+568 silly reify mark deleted [
+568 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@emnapi\\core'
+568 silly reify ]
+569 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@emnapi\runtime
+570 silly reify mark deleted [
+570 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@emnapi\\runtime'
+570 silly reify ]
+571 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@tybys\wasm-util
+572 silly reify mark deleted [
+572 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@tybys\\wasm-util'
+572 silly reify ]
+573 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@emnapi\wasi-threads
+574 silly reify mark deleted [
+574 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@emnapi\\wasi-threads'
+574 silly reify ]
+575 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-openharmony-arm64
+576 silly reify mark deleted [
+576 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-openharmony-arm64'
+576 silly reify ]
+577 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-linux-x64-musl
+578 silly reify mark deleted [
+578 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-linux-x64-musl'
+578 silly reify ]
+579 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-linux-x64-gnu
+580 silly reify mark deleted [
+580 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-linux-x64-gnu'
+580 silly reify ]
+581 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-linux-s390x-gnu
+582 silly reify mark deleted [
+582 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-linux-s390x-gnu'
+582 silly reify ]
+583 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-linux-ppc64-gnu
+584 silly reify mark deleted [
+584 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-linux-ppc64-gnu'
+584 silly reify ]
+585 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-linux-arm64-musl
+586 silly reify mark deleted [
+586 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-linux-arm64-musl'
+586 silly reify ]
+587 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-linux-arm64-gnu
+588 silly reify mark deleted [
+588 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-linux-arm64-gnu'
+588 silly reify ]
+589 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-linux-arm-gnueabihf
+590 silly reify mark deleted [
+590 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf'
+590 silly reify ]
+591 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-freebsd-x64
+592 silly reify mark deleted [
+592 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-freebsd-x64'
+592 silly reify ]
+593 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-darwin-x64
+594 silly reify mark deleted [
+594 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-darwin-x64'
+594 silly reify ]
+595 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-darwin-arm64
+596 silly reify mark deleted [
+596 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-darwin-arm64'
+596 silly reify ]
+597 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\rolldown\node_modules\@rolldown\binding-android-arm64
+598 silly reify mark deleted [
+598 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\rolldown\\node_modules\\@rolldown\\binding-android-arm64'
+598 silly reify ]
+599 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-win32-arm64-msvc
+600 silly reify mark deleted [
+600 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-win32-arm64-msvc'
+600 silly reify ]
+601 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-linux-x64-musl
+602 silly reify mark deleted [
+602 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-x64-musl'
+602 silly reify ]
+603 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-linux-x64-gnu
+604 silly reify mark deleted [
+604 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-x64-gnu'
+604 silly reify ]
+605 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-linux-arm64-musl
+606 silly reify mark deleted [
+606 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-arm64-musl'
+606 silly reify ]
+607 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-linux-arm64-gnu
+608 silly reify mark deleted [
+608 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-arm64-gnu'
+608 silly reify ]
+609 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-linux-arm-gnueabihf
+610 silly reify mark deleted [
+610 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-arm-gnueabihf'
+610 silly reify ]
+611 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-freebsd-x64
+612 silly reify mark deleted [
+612 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-freebsd-x64'
+612 silly reify ]
+613 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-darwin-x64
+614 silly reify mark deleted [
+614 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-darwin-x64'
+614 silly reify ]
+615 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-darwin-arm64
+616 silly reify mark deleted [
+616 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-darwin-arm64'
+616 silly reify ]
+617 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\lightningcss\node_modules\lightningcss-android-arm64
+618 silly reify mark deleted [
+618 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\lightningcss\\node_modules\\lightningcss-android-arm64'
+618 silly reify ]
+619 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-win32-arm64
+620 silly reify mark deleted [
+620 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-win32-arm64'
+620 silly reify ]
+621 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-sunos-x64
+622 silly reify mark deleted [
+622 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-sunos-x64'
+622 silly reify ]
+623 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-openbsd-x64
+624 silly reify mark deleted [
+624 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-openbsd-x64'
+624 silly reify ]
+625 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-openbsd-arm64
+626 silly reify mark deleted [
+626 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-openbsd-arm64'
+626 silly reify ]
+627 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-netbsd-x64
+628 silly reify mark deleted [
+628 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-netbsd-x64'
+628 silly reify ]
+629 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-netbsd-arm64
+630 silly reify mark deleted [
+630 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-netbsd-arm64'
+630 silly reify ]
+631 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-x64
+632 silly reify mark deleted [
+632 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-x64'
+632 silly reify ]
+633 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-s390x
+634 silly reify mark deleted [
+634 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-s390x'
+634 silly reify ]
+635 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-riscv64
+636 silly reify mark deleted [
+636 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-riscv64'
+636 silly reify ]
+637 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-ppc64
+638 silly reify mark deleted [
+638 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-ppc64'
+638 silly reify ]
+639 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-mips64el
+640 silly reify mark deleted [
+640 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-mips64el'
+640 silly reify ]
+641 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-arm64
+642 silly reify mark deleted [
+642 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-arm64'
+642 silly reify ]
+643 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-arm
+644 silly reify mark deleted [
+644 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-arm'
+644 silly reify ]
+645 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-linux-loong64
+646 silly reify mark deleted [
+646 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-linux-loong64'
+646 silly reify ]
+647 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-freebsd-arm64
+648 silly reify mark deleted [
+648 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-freebsd-arm64'
+648 silly reify ]
+649 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-freebsd-x64
+650 silly reify mark deleted [
+650 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-freebsd-x64'
+650 silly reify ]
+651 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-darwin-x64
+652 silly reify mark deleted [
+652 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-darwin-x64'
+652 silly reify ]
+653 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-darwin-arm64
+654 silly reify mark deleted [
+654 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-darwin-arm64'
+654 silly reify ]
+655 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\@typescript\typescript-aix-ppc64
+656 silly reify mark deleted [
+656 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\@typescript\\typescript-aix-ppc64'
+656 silly reify ]
+657 verbose reify failed optional dependency C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\node_modules\fsevents
+658 silly reify mark deleted [
+658 silly reify   'C:\\Users\\desk-KLU\\Documents\\Codex\\2026-07-15\\if\\node_modules\\fsevents'
+658 silly reify ]
+659 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz 0ms (cache hit)
+660 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.3.tgz 0ms (cache hit)
+661 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz 0ms (cache hit)
+662 http cache vite@https://registry.npmjs.org/vite/-/vite-8.1.4.tgz 0ms (cache hit)
+663 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser cache-miss
+664 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+665 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+666 http cache vite-plugin-pwa@https://registry.npmjs.org/vite-plugin-pwa/-/vite-plugin-pwa-1.3.0.tgz 0ms (cache hit)
+667 silly packumentCache corgi:https://registry.npmjs.org/terser cache-miss
+668 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+669 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz 0ms (cache hit)
+670 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+671 silly packumentCache corgi:https://registry.npmjs.org/rolldown cache-miss
+672 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz 0ms (cache hit)
+673 silly packumentCache corgi:https://registry.npmjs.org/regjsparser cache-miss
+674 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.2.tgz 0ms (cache hit)
+675 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+676 http cache react@https://registry.npmjs.org/react/-/react-19.2.7.tgz 0ms (cache hit)
+677 http cache react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.1.tgz 0ms (cache hit)
+678 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-1.24.0.tgz 0ms (cache hit)
+679 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+680 silly packumentCache corgi:https://registry.npmjs.org/jsesc cache-miss
+681 silly packumentCache corgi:https://registry.npmjs.org/json5 cache-miss
+682 silly packumentCache corgi:https://registry.npmjs.org/glob cache-miss
+683 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.42.2.tgz 0ms (cache hit)
+684 http cache @typescript/typescript-win32-x64@https://registry.npmjs.org/@typescript/typescript-win32-x64/-/typescript-win32-x64-7.0.2.tgz 0ms (cache hit)
+685 silly packumentCache corgi:https://registry.npmjs.org/jake cache-miss
+686 silly packumentCache corgi:https://registry.npmjs.org/ejs cache-miss
+687 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+688 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+689 silly tarball no local data for @typescript/typescript-win32-x64@https://registry.npmjs.org/@typescript/typescript-win32-x64/-/typescript-win32-x64-7.0.2.tgz. Extracting by manifest.
+690 silly packumentCache corgi:https://registry.npmjs.org/acorn cache-miss
+691 http fetch GET 200 https://registry.npmjs.org/jsesc 1566ms (cache miss)
+692 silly packumentCache corgi:https://registry.npmjs.org/jsesc set size:undefined disposed:false
+693 http fetch GET 200 https://registry.npmjs.org/which 1607ms (cache miss)
+694 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+695 http fetch GET 200 https://registry.npmjs.org/json5 1630ms (cache miss)
+696 silly packumentCache corgi:https://registry.npmjs.org/json5 set size:undefined disposed:false
+697 http fetch GET 200 https://registry.npmjs.org/regjsparser 1679ms (cache miss)
+698 silly packumentCache corgi:https://registry.npmjs.org/regjsparser set size:undefined disposed:false
+699 http fetch GET 200 https://registry.npmjs.org/acorn 1725ms (cache miss)
+700 silly packumentCache corgi:https://registry.npmjs.org/acorn set size:undefined disposed:false
+701 http cache https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 279ms (cache hit)
+702 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 1895ms (cache miss)
+703 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+704 http fetch GET 200 https://registry.npmjs.org/resolve 1919ms (cache miss)
+705 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+706 http cache https://registry.npmjs.org/which/-/which-2.0.2.tgz 324ms (cache hit)
+707 http fetch GET 200 https://registry.npmjs.org/ejs 1933ms (cache miss)
+708 silly packumentCache corgi:https://registry.npmjs.org/ejs set size:undefined disposed:false
+709 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 1959ms (cache miss)
+710 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db set size:undefined disposed:false
+711 http fetch GET 200 https://registry.npmjs.org/semver 1962ms (cache miss)
+712 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+713 http cache https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 351ms (cache hit)
+714 http fetch GET 200 https://registry.npmjs.org/glob 2024ms (cache miss)
+715 silly packumentCache corgi:https://registry.npmjs.org/glob set size:undefined disposed:false
+716 http cache https://registry.npmjs.org/regjsparser/-/regjsparser-0.13.2.tgz 372ms (cache hit)
+717 http cache https://registry.npmjs.org/acorn/-/acorn-8.17.0.tgz 357ms (cache hit)
+718 http fetch GET 200 https://registry.npmjs.org/browserslist 2118ms (cache miss)
+719 silly packumentCache corgi:https://registry.npmjs.org/browserslist set size:undefined disposed:false
+720 http fetch GET 200 https://registry.npmjs.org/jake 2143ms (cache miss)
+721 silly packumentCache corgi:https://registry.npmjs.org/jake set size:undefined disposed:false
+722 http fetch GET 200 https://registry.npmjs.org/nanoid 2180ms (cache miss)
+723 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+724 http cache https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.43.tgz 325ms (cache hit)
+725 http cache https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz 317ms (cache hit)
+726 http cache https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 298ms (cache hit)
+727 http cache https://registry.npmjs.org/ejs/-/ejs-3.1.10.tgz 311ms (cache hit)
+728 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 289ms (cache hit)
+729 http cache https://registry.npmjs.org/glob/-/glob-11.1.0.tgz 281ms (cache hit)
+730 http fetch GET 200 https://registry.npmjs.org/terser 2325ms (cache miss)
+731 silly packumentCache corgi:https://registry.npmjs.org/terser set size:undefined disposed:false
+732 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 2350ms (cache miss)
+733 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser set size:undefined disposed:false
+734 http cache https://registry.npmjs.org/browserslist/-/browserslist-4.28.6.tgz 288ms (cache hit)
+735 http cache https://registry.npmjs.org/jake/-/jake-10.9.4.tgz 287ms (cache hit)
+736 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.16.tgz 267ms (cache hit)
+737 http cache https://registry.npmjs.org/terser/-/terser-5.49.0.tgz 213ms (cache hit)
+738 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.7.tgz 369ms (cache revalidated)
+739 http fetch GET 200 https://registry.npmjs.org/rolldown 3011ms (cache miss)
+740 silly packumentCache corgi:https://registry.npmjs.org/rolldown set size:undefined disposed:false
+741 http cache https://registry.npmjs.org/rolldown/-/rolldown-1.1.5.tgz 121ms (cache hit)
+742 http fetch GET 200 https://registry.npmjs.org/rollup 3227ms (cache miss)
+743 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:undefined disposed:false
+744 http cache https://registry.npmjs.org/rollup/-/rollup-4.62.2.tgz 104ms (cache hit)
+745 http fetch GET 200 https://registry.npmjs.org/@typescript/typescript-win32-x64/-/typescript-win32-x64-7.0.2.tgz 6832ms (cache miss)
+746 silly CHANGE node_modules/@vitejs/plugin-react
+747 silly CHANGE node_modules/@types/react-dom
+748 silly CHANGE node_modules/@types/react
+749 silly CHANGE node_modules/@babel/parser
+750 silly CHANGE node_modules/vite
+751 silly CHANGE node_modules/which
+752 silly CHANGE node_modules/vite-plugin-pwa
+753 silly CHANGE node_modules/update-browserslist-db
+754 silly CHANGE node_modules/typescript
+755 silly CHANGE node_modules/terser
+756 silly CHANGE node_modules/tailwindcss
+757 silly CHANGE node_modules/semver
+758 silly CHANGE node_modules/rollup
+759 silly ADD
+760 silly ADD
+761 silly ADD
+762 silly ADD
+763 silly ADD
+764 silly ADD
+765 silly ADD
+766 silly ADD
+767 silly ADD
+768 silly ADD
+769 silly ADD
+770 silly ADD
+771 silly ADD
+772 silly ADD
+773 silly ADD
+774 silly ADD
+775 silly ADD
+776 silly ADD
+777 silly ADD
+778 silly ADD
+779 silly ADD
+780 silly ADD
+781 silly ADD
+782 silly CHANGE node_modules/rolldown
+783 silly ADD
+784 silly ADD
+785 silly ADD
+786 silly ADD
+787 silly ADD
+788 silly ADD
+789 silly ADD
+790 silly ADD
+791 silly ADD
+792 silly ADD
+793 silly ADD
+794 silly ADD
+795 silly ADD
+796 silly ADD
+797 silly CHANGE node_modules/resolve
+798 silly CHANGE node_modules/regjsparser
+799 silly CHANGE node_modules/react-router-dom
+800 silly CHANGE node_modules/react-dom
+801 silly CHANGE node_modules/react
+802 silly CHANGE node_modules/nanoid
+803 silly CHANGE node_modules/lucide-react
+804 silly ADD
+805 silly ADD
+806 silly ADD
+807 silly ADD
+808 silly ADD
+809 silly ADD
+810 silly ADD
+811 silly ADD
+812 silly ADD
+813 silly ADD
+814 silly CHANGE node_modules/jake
+815 silly CHANGE node_modules/json5
+816 silly CHANGE node_modules/jsesc
+817 silly CHANGE node_modules/glob
+818 silly CHANGE node_modules/framer-motion
+819 silly CHANGE node_modules/ejs
+820 silly CHANGE node_modules/baseline-browser-mapping
+821 silly CHANGE node_modules/browserslist
+822 silly CHANGE node_modules/acorn
+823 silly CHANGE node_modules/@typescript/typescript-win32-x64
+824 silly CHANGE node_modules/@typescript/typescript-win32-arm64
+825 silly CHANGE node_modules/@typescript/typescript-sunos-x64
+826 silly CHANGE node_modules/@typescript/typescript-openbsd-x64
+827 silly CHANGE node_modules/@typescript/typescript-openbsd-arm64
+828 silly CHANGE node_modules/@typescript/typescript-netbsd-x64
+829 silly CHANGE node_modules/@typescript/typescript-netbsd-arm64
+830 silly CHANGE node_modules/@typescript/typescript-linux-x64
+831 silly CHANGE node_modules/@typescript/typescript-linux-s390x
+832 silly CHANGE node_modules/@typescript/typescript-linux-riscv64
+833 silly CHANGE node_modules/@typescript/typescript-linux-ppc64
+834 silly CHANGE node_modules/@typescript/typescript-linux-mips64el
+835 silly CHANGE node_modules/@typescript/typescript-linux-arm64
+836 silly CHANGE node_modules/@typescript/typescript-linux-arm
+837 silly CHANGE node_modules/@typescript/typescript-linux-loong64
+838 silly CHANGE node_modules/@typescript/typescript-freebsd-arm64
+839 silly CHANGE node_modules/@typescript/typescript-freebsd-x64
+840 silly CHANGE node_modules/@typescript/typescript-darwin-x64
+841 silly CHANGE node_modules/@typescript/typescript-darwin-arm64
+842 silly CHANGE node_modules/@typescript/typescript-aix-ppc64
+843 silly REMOVE node_modules/@rollup/rollup-win32-ia32-msvc
+844 silly REMOVE node_modules/@rollup/rollup-win32-arm64-msvc
+845 silly REMOVE node_modules/@rollup/rollup-openharmony-arm64
+846 silly REMOVE node_modules/@rollup/rollup-openbsd-x64
+847 silly REMOVE node_modules/@rollup/rollup-linux-x64-musl
+848 silly REMOVE node_modules/@rollup/rollup-linux-x64-gnu
+849 silly REMOVE node_modules/@rollup/rollup-linux-s390x-gnu
+850 silly REMOVE node_modules/@rollup/rollup-linux-riscv64-musl
+851 silly REMOVE node_modules/@rollup/rollup-linux-riscv64-gnu
+852 silly REMOVE node_modules/@rollup/rollup-linux-ppc64-musl
+853 silly REMOVE node_modules/@rollup/rollup-linux-ppc64-gnu
+854 silly REMOVE node_modules/@rollup/rollup-linux-loong64-musl
+855 silly REMOVE node_modules/@rollup/rollup-linux-loong64-gnu
+856 silly REMOVE node_modules/@rollup/rollup-linux-arm64-gnu
+857 silly REMOVE node_modules/@rollup/rollup-linux-arm64-musl
+858 silly REMOVE node_modules/@rollup/rollup-linux-arm-gnueabihf
+859 silly REMOVE node_modules/@rollup/rollup-linux-arm-musleabihf
+860 silly REMOVE node_modules/@rollup/rollup-freebsd-x64
+861 silly REMOVE node_modules/@rollup/rollup-freebsd-arm64
+862 silly REMOVE node_modules/@rollup/rollup-darwin-x64
+863 silly REMOVE node_modules/@rollup/rollup-darwin-arm64
+864 silly REMOVE node_modules/@rollup/rollup-android-arm64
+865 silly REMOVE node_modules/@rollup/rollup-android-arm-eabi
+866 silly REMOVE node_modules/@rolldown/binding-win32-arm64-msvc
+867 silly REMOVE node_modules/@rolldown/binding-wasm32-wasi
+868 silly REMOVE node_modules/@rolldown/binding-linux-x64-musl
+869 silly REMOVE node_modules/@rolldown/binding-openharmony-arm64
+870 silly REMOVE node_modules/@rolldown/binding-linux-x64-gnu
+871 silly REMOVE node_modules/@rolldown/binding-linux-ppc64-gnu
+872 silly REMOVE node_modules/@rolldown/binding-linux-s390x-gnu
+873 silly REMOVE node_modules/@rolldown/binding-linux-arm64-musl
+874 silly REMOVE node_modules/@rolldown/binding-linux-arm64-gnu
+875 silly REMOVE node_modules/@rolldown/binding-linux-arm-gnueabihf
+876 silly REMOVE node_modules/@rolldown/binding-darwin-x64
+877 silly REMOVE node_modules/@rolldown/binding-freebsd-x64
+878 silly REMOVE node_modules/@rolldown/binding-darwin-arm64
+879 silly REMOVE node_modules/@rolldown/binding-android-arm64
+880 silly REMOVE node_modules/lightningcss-win32-arm64-msvc
+881 silly REMOVE node_modules/lightningcss-linux-x64-musl
+882 silly REMOVE node_modules/lightningcss-linux-x64-gnu
+883 silly REMOVE node_modules/lightningcss-linux-arm64-musl
+884 silly REMOVE node_modules/lightningcss-linux-arm64-gnu
+885 silly REMOVE node_modules/lightningcss-linux-arm-gnueabihf
+886 silly REMOVE node_modules/lightningcss-freebsd-x64
+887 silly REMOVE node_modules/lightningcss-darwin-x64
+888 silly REMOVE node_modules/lightningcss-darwin-arm64
+889 silly REMOVE node_modules/lightningcss-android-arm64
+890 silly CHANGE node_modules/fsevents
+891 verbose cwd C:\Users\desk-KLU\Documents\Codex\2026-07-15\if
+892 verbose os Windows_NT 10.0.26200
+893 verbose node v22.20.0
+894 verbose npm  v10.9.3
+895 verbose exit 0
+896 info ok

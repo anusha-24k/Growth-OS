@@ -1,0 +1,26 @@
+'Log files:
+C:\Users\desk-KLU\Documents\Codex\2026-07-15\if\.npm-cache\_logs\2026-07-15T08_10_54_348Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: growth-os@1.0.0
+Found: @vitejs/plugin-react@6.0.3
+node_modules/@vitejs/plugin-react
+  @vitejs/plugin-react@"latest" from the root project
+
+Could not resolve dependency:
+@vitejs/plugin-react@"latest" from the root project
+
+Conflicting peer dependency: @babel/core@8.0.1
+node_modules/@babel/core
+  peer @babel/core@"^8.0.0" from @babel/plugin-transform-runtime@8.0.1
+  node_modules/@babel/plugin-transform-runtime
+    peerOptional @babel/plugin-transform-runtime@"^7.29.0 || ^8.0.0-rc.1" from @rolldown/plugin-babel@0.2.3
+    node_modules/@rolldown/plugin-babel
+      peerOptional @rolldown/plugin-babel@"^0.1.7 || ^0.2.0" from @vitejs/plugin-react@6.0.3
+      node_modules/@vitejs/plugin-react
+        @vitejs/plugin-react@"latest" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

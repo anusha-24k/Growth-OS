@@ -1,0 +1,9 @@
+export type Mode = 'College Day' | 'Weekend' | 'Holiday' | 'Festival' | 'Exam Mode';
+export type HabitName = 'Workout' | 'Water Intake' | 'Sleep' | 'Meditation';
+export type Topic = { id: string; title: string; done: boolean };
+export type Area = { id: string; name: string; planned: number; topics: Topic[] };
+export type Phase = { id: string; name: string; areas: Area[] };
+export type Plan = { mode: Mode; learningAreaId: string; focus: string; priority: string; study: string; workout: string; notes: string };
+export type Activity = { id: string; time: string; activity: string };
+export type WorkoutPlan = { title: string; channels: string[] };
+export type Store = { version: 3; profile: { name: string; monthlyGoal: string; defaultMode: Mode }; phases: Phase[]; habits: Record<string, HabitName[]>; studyDays: Record<string, boolean>; todayPlan: Plan; tomorrowPlan: Plan; planDate: string; timetables: Record<Mode, Activity[]>; workoutDefaults: Record<Mode, string>; weeklyWorkouts: Record<number, WorkoutPlan>; periodWorkouts: WorkoutPlan[]; periodMode: { enabled: boolean; startDate: string }; hairWashDays: number[]; hairOilDays: number[] };

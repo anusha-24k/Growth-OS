@@ -1,0 +1,18 @@
+{
+  "name": "growth-os",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview" },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "vite": "5.4.14",
+    "vite-plugin-pwa": "0.20.5"
+  },
+  "devDependencies": { "typescript": "latest", "tailwindcss": "latest", "@types/react": "latest", "@types/react-dom": "latest" }
+}
